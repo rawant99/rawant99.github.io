@@ -9,24 +9,6 @@ button {
   padding-left: 1px;
 }
 
-@mediascreen and (max-width: 650px) {
-  #container {
-    width: 100%;
-  }
-  header { 
-    width: 100%;
-  }
-  .paragraph {
-    width: 100%;
-  }
-  #home {
-    width: 50%;
-  }
-  #catalogue {
-    width: 60%;
-  }
-}
-
 header.headerr {
   width: 70%;
   overflow: hidden;
