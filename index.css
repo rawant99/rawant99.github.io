@@ -11,7 +11,7 @@ button {
 
 @mediascreen and (max-width: 959px) {
   .headerr { 
-    width: 20;
+    width: 40;
   }
 }
 
