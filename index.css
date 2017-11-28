@@ -9,6 +9,12 @@ button {
   padding-left: 1px;
 }
 
+@mediascreen and (max-width: 959px) {
+  .headerr { 
+    width: 20;
+  }
+}
+
 header.headerr {
   width: 70%;
   overflow: hidden;
