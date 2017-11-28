@@ -9,12 +9,16 @@ button {
   padding-left: 1px;
 }
 
-@mediascreen and (max-width: 959px) {
+@mediascreen and (max-width: 700px) {
   .headerr { 
     width: 80%;
   }
   #home {
     width: 50%;
+  }
+  #catalogue {
+    width: 60%;
+  }
 }
 
 header.headerr {
