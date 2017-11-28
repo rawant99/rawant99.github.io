@@ -1,0 +1,315 @@
+body {
+font-size: 30px/1.5 Arial, Helvetica;
+background: url(uniche/noisy-texture-200x200-o30-d26-c-e68a7e-t0.png) repeat;
+margin: 0px;
+}
+
+button {
+  background-color: white;
+  padding-left: 1px;
+}
+
+header.headerr {
+  width: 70%;
+  overflow: hidden;
+  margin: 0;
+}
+
+header a{
+color: #000000;
+text-decoration: none;
+font-family: 'Julius Sans One', sans-serif;
+padding: 1px;
+}
+
+ul {
+  font-style: oblique;
+  position: fixed;
+  display: table;
+  border-radius: 6px;
+  border-top: 100%;
+  background-color: #000000;
+  padding-bottom: 1000px;
+  margin-top: 0;
+  padding-left: 5px;
+}
+
+li {
+display: table-row;
+vertical-align: left;
+text-decoration: none;
+}
+
+.languages {
+  position: relative;
+  left: 1200px;
+  top: 0;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 2px;
+}
+
+.languages:hover{
+  color: pink;
+}
+
+
+button {
+  display: block;
+  margin: 8px;
+  margin-left: 0;
+  font: 18px Georgia;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.uniche-image {
+position: absolute;
+height: 300px;
+width: 300px;
+left: 400px;
+}
+
+#home p{
+  font-family: bodoni;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  left: 325px;
+  top: 300px;
+}
+
+.paragraph1 {
+  position: absolute;
+  left: 133px;
+  top: 580px;
+  font-family: monospace;
+  font-size: 27px;
+  color: #696969;
+  margin: 0px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 24px;
+  background-color: white;
+}
+
+hr {
+  color: black;
+}
+
+.uniche-image {
+  border-radius: 100%;
+}
+
+
+#slider {
+  position:absolute;
+  left: 860px;
+  margin: 10px;
+}
+
+.slider {
+  overflow: hidden;
+  height:20%;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 30s slidy infinite;
+}
+
+@keyframes slidy{
+  0%{
+    left: 0%;
+  }
+  10%{
+    left: 0%;
+  }
+  12%{
+    left: -100%;
+  }
+  22%{
+    left:-100%;
+  }
+  24%{
+    left:-200%;
+  }
+  34%{
+    left: -200%;
+  }
+  36% {
+    left: -300%;
+  }
+  46% {
+    left: -300%;
+  }
+  48% {
+    left: -400%;
+  }
+  58% {
+    left: -400%;
+  }
+  60% {
+    left: -300%;
+  }
+  70% {
+    left: -300%;
+  }
+  72% {
+    left: -200%;
+  }
+  82% {
+    left: -200%;
+  }
+  84% {
+    left: -100%;
+  }
+  94% {
+    left: -100%;
+  }
+  96% {
+    left: 0%;
+  }
+
+}
+
+.slider figure div{
+width: 20%;
+float: left;
+}
+
+.slider figure img{
+  width: 100%;
+  width: 400px;
+  height: 500px;
+  float: left;
+  left: 80px;
+}
+
+#catalogue {
+  position: absolute;
+  top: 830px;
+  left: 640px;
+  font-size: 40px;
+  color: 	#2F4F4F;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.textOverImage {
+  display: inline-block;
+  margin: 5px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  position: relative;
+  top: 960px;
+  left: 190px;
+  height: 330px;
+  width: 260px;
+}
+
+.textOverImage:hover {
+  background-size: 110%;
+}
+
+.textOverImage:after {
+  position: absolute;
+  overflow: hidden;
+  word-wrap: break-word;
+  content:attr(data-text);
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  transition: 0.5s;
+  padding: 0 4px;
+  transition: 0.5s;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.textOverImage:hover:after {
+  padding: 4px;
+  top: 0;
+}
+
+.textOverImage:first-line {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.paragraph2 {
+position: absolute;
+left: 300px;
+top: 2500px;
+font-family: monospace;
+font-size: 30px;
+color: #696969;
+margin: 0px;
+padding: 30px;
+line-height: 24px;
+background-color: white;
+}
+
+#contact {
+  position: absolute;
+  top: 2700px;
+  left: 630px;
+  font-size: 40px;
+  color: #2F4F4F;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+iframe {
+  position: absolute;
+  top: 2850px;
+  left: 232px;
+  size: 10px;
+}
+
+.time {
+  font: 18px Georgia;
+  color: #696969;
+  position: absolute;
+  top: 3100px;
+  left: 185px;
+}
+
+.socialmedia img {
+  position: relative;
+  float: left;
+  top: 1450px;
+  left: 750px;
+  width: 50px;
+  height: 50px;
+  margin: 27px;
+  border-radius: 50%;
+}
+
+.phone img {
+background-color: white;
+padding: 1.5px;
+}
+
+.uniche1 {
+  width: 180px;
+  height: 220px;
+}
+
+p.copy {
+  font-family: sans-serif;
+  position: absolute;
+  top: 3150px;
+  margin-bottom: 5px;
+  color: white;
+  margin-bottom: 5px;
+}
