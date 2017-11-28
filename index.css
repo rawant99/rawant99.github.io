@@ -13,6 +13,8 @@ button {
   .headerr { 
     width: 80%;
   }
+  #home {
+    width: 50%;
 }
 
 header.headerr {
