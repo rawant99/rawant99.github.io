@@ -1,114 +1,132 @@
 body {
-font-size: 30px/1.5 Arial, Helvetica;
+font: 30px/1.5 Arial, Helvetica;
 background: url(uniche/noisy-texture-200x200-o30-d26-c-e68a7e-t0.png) repeat;
-margin: 0px;
+margin: 0;
+padding: 0;
 }
 
-button {
-  background-color: white;
-  padding-left: 1px;
-}
-
-header.headerr {
-  width: 70%;
+.container {
+  width: 80%;
+  margin: auto;
   overflow: hidden;
+}
+
+header {
+  background: #A9A9A9;
+  min-height: 70px;
+  padding-top: 27px;
+}
+
+header #main ul {
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+}
+
+header #main li {
+  float: left;
+  display: inline;
+  padding: 0 25px;
+  margin-top: 23px
+}
+
+header #languages li {
+  float: right;
+  display: inline;
+  padding: 0;
   margin: 0;
 }
 
-header a{
-color: #000000;
+a {
 text-decoration: none;
-font-family: 'Julius Sans One', sans-serif;
-padding: 1px;
+color: white;
 }
 
-ul {
-  font-style: oblique;
-  position: fixed;
-  display: table;
-  border-radius: 6px;
-  border-top: 100%;
-  background-color: #000000;
-  padding-bottom: 1000px;
-  margin-top: 0;
-  padding-left: 5px;
+header .current a {
+  color: #cccccc;
 }
 
-li {
-display: table-row;
-vertical-align: left;
-text-decoration: none;
+header a:hover {
+  color: #cccccc;
 }
 
-.languages {
-  position: relative;
-  left: 1200px;
-  top: 0;
-  font-size: 20px;
+/* languages */
+
+#languages {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+a.languages {
+  color: white;
   text-decoration: none;
-  font-weight: bold;
-  color: black;
-  margin: 2px;
+  font-size: 19px;
+  padding: 5px;
+}
+
+
+#languages .current a {
+  color: #cccccc;
 }
 
 .languages:hover{
   color: pink;
 }
 
+/* languages */
 
-button {
-  display: block;
-  margin: 8px;
-  margin-left: 0;
-  font: 18px Georgia;
-  text-decoration: none;
-  border-radius: 5px;
+#logos {
+  margin-top: 10px;
+
 }
 
-.uniche-image {
-position: absolute;
-height: 300px;
-width: 300px;
-left: 400px;
+#logos .logo {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  padding: 0;
 }
 
-#home p{
-  font-family: bodoni;
+#logos .logo img {
+  border-radius: 50%;
+  width: 300px;
+  margin-top: 30px;
+}
+
+#logos .logo h3 {
+  padding: 0;
+  margin-top: 5px;
   font-size: 40px;
-  color: white;
-  position: absolute;
-  left: 325px;
-  top: 300px;
+  line-height: 34px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+#logos .logo p {
+  padding: 0;
+  margin: 7px;
+  line-height: 32px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .paragraph1 {
-  position: absolute;
-  left: 133px;
-  top: 580px;
+  float: left;
+  width: 70%;
   font-family: monospace;
-  font-size: 27px;
+  font-size: 29px;
   color: #696969;
-  margin: 0px;
-  padding-left: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 24px;
+  margin-top: 30px;
+  padding-top: 86px;
+  padding-bottom: 86px;
+  line-height: 28px;
   background-color: white;
 }
-
-hr {
-  color: black;
-}
-
-.uniche-image {
-  border-radius: 100%;
-}
-
-
+/* slider */
 #slider {
-  position:absolute;
-  left: 860px;
-  margin: 10px;
+  float: right;
+  width: 30%;
+  background-color: white;
+  margin-top: 30px;
 }
 
 .slider {
@@ -186,33 +204,37 @@ float: left;
 
 .slider figure img{
   width: 100%;
-  width: 400px;
-  height: 500px;
-  float: left;
+  width: 300px;
+  height: 400px;
+  float: right;
   left: 80px;
 }
+/* slider */
 
+/* not working */
 #catalogue {
-  position: absolute;
-  top: 830px;
-  left: 640px;
-  font-size: 40px;
-  color: 	#2F4F4F;
+  font-size: 35px;
+  color: #2F4F4F;
   text-transform: uppercase;
   text-decoration: underline;
 }
 
+#catalogue h2 {
+  padding-top: 80px;
+  text-align: center;
+}
+/* not working */
+
+/* text on image */
 .textOverImage {
+  position: relative;
+  margin: auto;
+  height: 330px;
+  width: 260px;
   display: inline-block;
-  margin: 5px;
   background-size: 100%;
   background-position: center;
   transition: 0.5s;
-  position: relative;
-  top: 960px;
-  left: 190px;
-  height: 330px;
-  width: 260px;
 }
 
 .textOverImage:hover {
@@ -243,73 +265,183 @@ float: left;
 .textOverImage:first-line {
   color: #fff;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.2em;
+}
+/* text on image */
+
+.paragraph2 p {
+font-family: monospace;
+font-size: 28px;
+color: #696969;
+padding: 50px;
+line-height: 24px;
+background-color: white;
+text-align: center;
 }
 
 .paragraph2 {
-position: absolute;
-left: 300px;
-top: 2500px;
-font-family: monospace;
-font-size: 30px;
-color: #696969;
-margin: 0px;
-padding: 30px;
-line-height: 24px;
-background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #contact {
-  position: absolute;
-  top: 2700px;
-  left: 630px;
-  font-size: 40px;
+  padding-top: 20px;
+  margin: auto;
+  font-size: 35px;
   color: #2F4F4F;
   text-transform: uppercase;
   text-decoration: underline;
+  text-align: center;
 }
 
 iframe {
-  position: absolute;
-  top: 2850px;
-  left: 232px;
   size: 10px;
+  padding-bottom: 70px;
 }
 
 .time {
   font: 18px Georgia;
   color: #696969;
-  position: absolute;
-  top: 3100px;
-  left: 185px;
 }
 
-.socialmedia img {
-  position: relative;
+.time, iframe {
+  width: 60%;
   float: left;
-  top: 1450px;
-  left: 750px;
+}
+
+aside.socialmedia img {
+  position: relative;
+  float: right;
   width: 50px;
   height: 50px;
-  margin: 27px;
   border-radius: 50%;
+  padding: 10px;
 }
 
-.phone img {
-background-color: white;
-padding: 1.5px;
-}
 
-.uniche1 {
-  width: 180px;
-  height: 220px;
-}
-
-p.copy {
-  font-family: sans-serif;
-  position: absolute;
-  top: 3150px;
-  margin-bottom: 5px;
+footer {
+  padding: 1px;
+  margin: auto;
   color: white;
+  background-color: black;
+  text-align: center;
+}
+
+@media(max-width: 768px) {
+header #languages li.languages,
+header #main,
+header li #main{
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+
+header #languages .languages li {
+  font-size: 8px;
+  padding: 0;
+}
+
+header #main li {
+font-size: 20px;
+padding: 5px;
+margin: 0;
+}
+
+#logos .logo {
+  width: 100%;
+}
+
+a.languages {
+  font-size: 15px;
+}
+
+#logos .logo img {
+  width: 170px;
+  height: 170px;
+  padding: 0;
+  margin: 0;
+}
+
+#logos .logo h3 {
+  font-size: 23px;
+  padding: 0;
+  margin: 0;
+}
+
+#logos .logo p {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph1, #slider {
+  width: 100%;
+}
+
+#slider {
+  background: none;
+  align: center;
+}
+
+.paragraph1 {
+  font-size: 20px;
+  padding: 3px;
   margin-bottom: 5px;
+}
+
+#catalogue {
+  font-size: 20px;
+}
+
+ #catalogue h2 {
+   margin: 0;
+   padding: 20px;
+ }
+
+ .textOverImage {
+   width: 260px;
+   height: 290px;
+   float: none;
+   align: center;
+ }
+
+ .textOverImage:first-line {
+   font-size: 25px;
+ }
+
+ .textOverImage:after {
+   font-size: 15px;
+ }
+
+.paragraph2 {
+  padding: 2px;
+  margin: 20px 0px;
+}
+
+.paragraph2 p {
+    font-size: 20px;
+    padding: 15px;
+}
+
+#contact {
+  font-size: 20px;
+}
+
+  #contact h2 {
+    margin: 0;
+    padding: 15px;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .time h4 {
+    margin: auto;
+    align: center;
+  }
+
+  footer {
+    font-size: 20px;
+  }
 }
