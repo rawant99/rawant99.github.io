@@ -339,7 +339,7 @@ header #languages .languages li {
 }
 
 header #main li {
- font-size: 10px;
+ font-size: 15px;
  padding: 4px;
  margin: 0;
 
@@ -356,7 +356,7 @@ header #main li {
 }
 
 a.languages {
-  font-size: 13px;
+  font-size: 10px;
 }
 
 #logos .logo img {
