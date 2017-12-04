@@ -448,6 +448,7 @@ a.languages {
 
   footer {
     font-size: 20px;
-    align: center;
+    padding: 2px;
+    margin: 0;
   }
 }
