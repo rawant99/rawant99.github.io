@@ -347,8 +347,9 @@ header #main li {
 }
   
  #languages {
-   padding: 0;
+   padding-top: 0;
    margin: 0;
+   background-color: none;
   }
   
   header {
