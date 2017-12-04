@@ -329,8 +329,7 @@ footer {
 
 @media(max-width: 768px) {
 header #languages li.languages,
-header #main,
-header li #main{
+header #main {
   float: none;
   text-align: center;
   width: 100%;
@@ -350,7 +349,6 @@ header #main li {
 font-size: 20px;
 padding: 5px;
 margin: 0;
-width: 100%;
 }
 
 #logos .logo {
