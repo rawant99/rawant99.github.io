@@ -332,7 +332,6 @@ header #languages li.languages,
 header #main {
   float: none;
   text-align: center;
-  width: 100%;
 }
 
  header {
@@ -349,6 +348,7 @@ header #main li {
 font-size: 20px;
 padding: 5px;
 margin: 0;
+ float: none;
 }
 
 #logos .logo {
