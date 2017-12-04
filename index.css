@@ -338,8 +338,8 @@ header #languages .languages li {
   margin: 0;
 }
 
-header li#main {
- font-size: 15px;
+header #main li {
+ font-size: 20px;
  padding: 4px;
  margin: 0;
 
