@@ -339,6 +339,7 @@ header li #main{
  header {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
   
 header #languages .languages li {
