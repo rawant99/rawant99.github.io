@@ -338,7 +338,7 @@ header #languages .languages li {
   margin: 0;
 }
 
-header #main li {
+header li#main {
  font-size: 15px;
  padding: 4px;
  margin: 0;
