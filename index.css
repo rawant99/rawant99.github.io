@@ -339,19 +339,18 @@ header li #main{
  header {
   margin: 0;
   padding: 0;
-  width: 100%;
 }
   
 header #languages .languages li {
   font-size: 8px;
   padding: 0;
-  width: 100%;
 }
 
 header #main li {
 font-size: 20px;
 padding: 5px;
 margin: 0;
+width: 100%;
 }
 
 #logos .logo {
