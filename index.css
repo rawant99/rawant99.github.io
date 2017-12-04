@@ -336,6 +336,11 @@ header li #main{
   width: 100%;
 }
 
+ header {
+  margin: 0;
+  padding: 0;
+}
+  
 header #languages .languages li {
   font-size: 8px;
   padding: 0;
