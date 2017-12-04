@@ -334,8 +334,12 @@ header #main {
   text-align: center;
 }
 
+.container {
+  width: 100%;
+ }
+  
  header {
-  padding: 0;
+   padding: 0;
    margin: 0;
 }
   
@@ -448,8 +452,6 @@ a.languages {
 
   footer {
     font-size: 20px;
-    padding: 2px;
-    margin: 0;
   }
   
 }
