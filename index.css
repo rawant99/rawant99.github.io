@@ -98,6 +98,7 @@ header a:hover {
   margin-top: 20px;
   margin: auto;
   overflow: hidden;
+  display: inline-block
 }
 
 #body img.image1 {
@@ -105,6 +106,7 @@ header a:hover {
   margin: 9px;
   width: 200px;
   height: 260px;
+  display: inline-block
 }
 
 #body img.image2 {
@@ -112,6 +114,7 @@ header a:hover {
   width: 200px;
   height: 260px;
   margin: 9px;
+  display: inline-block
 }
 
 #body .logo {
