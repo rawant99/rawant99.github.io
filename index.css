@@ -102,6 +102,13 @@ header a:hover {
 .container img.image1 {
   float: left;
   margin: 10px;
+  size: 70px;
+}
+
+.container img.image10 {
+  float: right;
+  size: 90px;
+  margin: 10px;
 }
 
 #body .logo {
