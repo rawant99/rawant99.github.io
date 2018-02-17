@@ -99,14 +99,14 @@ header a:hover {
 
 }
 
-#body .container img.image1 {
+#body img.image1 {
   float: left;
   margin: 10px;
   width: 150px;
   height: 150px;
 }
 
-#body .container img.image2 {
+#body img.image2 {
   float: right;
   width: 150px;
   height: 150px;
