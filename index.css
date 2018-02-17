@@ -72,7 +72,7 @@ header a:hover {
   margin-top: 75px;
   font-family: 'Rigatoni Thin';
   font-size: 180px;
-  margin-bottom: 11px;
+  margin-bottom: 8px;
 }
 
 #eshop {
@@ -96,7 +96,8 @@ header a:hover {
 
 #body {
   margin-top: 20px;
-
+  margin: auto;
+  overflow: hidden;
 }
 
 #body img.image1 {
