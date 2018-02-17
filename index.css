@@ -102,14 +102,14 @@ header a:hover {
 #body .container img.image1 {
   float: left;
   margin: 10px;
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
 }
 
 #body .container img.image2 {
   float: right;
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
   margin: 10px;
 }
 
@@ -121,8 +121,8 @@ header a:hover {
 }
 
 #body .logo img {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
 }
 
 footer {
