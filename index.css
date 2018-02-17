@@ -102,12 +102,12 @@ header a:hover {
 .container img.image1 {
   float: left;
   margin: 10px;
-  size: 70px;
+  size: 60px;
 }
 
 .container img.image10 {
   float: right;
-  size: 90px;
+  size: 60px;
   margin: 10px;
 }
 
