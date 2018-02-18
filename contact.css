@@ -104,6 +104,8 @@ aside.socialmedia img {
 footer {
   padding: 15px;
   margin-top: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   color: white;
   background-color: #45954c;
   text-align: center;
