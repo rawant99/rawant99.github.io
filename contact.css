@@ -33,7 +33,7 @@ header #welcome h1 {
   margin: 0;
   font-size: 31px;
   font-family: 'Rigatoni Thin';
-  color: #ffbdbd;
+  font-color: #ffbdbd;
 }
 
 header a {
