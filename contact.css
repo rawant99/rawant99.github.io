@@ -4,7 +4,12 @@ body {
   line-height: 1.6;
   padding: 0;
   margin: 0;
-  background-color:	#dddddd;
+  background-color:	#7abe80;
+}
+
+@font-face {
+  font-family: 'Rigatoni Thin';
+  src: url('C:/Users/Administrator/Downloads/Sudtipos-RigatoniThin.otf'), format("opentype");
 }
 
 .container {
@@ -14,10 +19,21 @@ body {
 }
 
 header {
-  background: #819ac5;
+  background: ##45954c;
   padding-top: 27px;
   min-height: 70px;
-  border-bottom: #FF69B4 4px solid;
+  border-bottom: ##ffbdbd 4px solid;
+}
+
+header #welcome {
+  float: left;
+}
+
+header #welcome h1 {
+  margin: 0;
+  font-size: 29px;
+  font-family: 'Rigatoni Thin';
+  color: ##ffbdbd;
 }
 
 header a {
