@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: ##45954c;
+  background: #45954c;
   padding-top: 27px;
   min-height: 70px;
   border-bottom: ##ffbdbd 4px solid;
@@ -31,7 +31,7 @@ header #welcome {
 
 header #welcome h1 {
   margin: 0;
-  font-size: 29px;
+  font-size: 31px;
   font-family: 'Rigatoni Thin';
   color: ##ffbdbd;
 }
