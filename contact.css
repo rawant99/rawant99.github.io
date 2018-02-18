@@ -78,6 +78,39 @@ header a:hover {
   color: #cccccc;
 }
 
+#contact {
+  padding-top: 20px;
+  margin: auto;
+  font-size: 35px;
+  color: #2F4F4F;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+iframe {
+  size: 10px;
+  padding-bottom: 70px;
+}
+
+.time {
+  font: 18px Georgia;
+  color: #696969;
+}
+
+.time, iframe {
+  width: 60%;
+  float: left;
+}
+
+aside.socialmedia img {
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
 
 footer {
   padding: 15px;
