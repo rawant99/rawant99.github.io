@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  background-color: #7abe80;
+}
+
+@font-face {
+  font-family: 'Rigatoni Thin';
+  src: url('C:/Users/Administrator/Downloads/Sudtipos-RigatoniThin.otf'), format("opentype");
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #45954c;
+  padding-top: 27px;
+  min-height: 70px;
+  border-bottom: #ffbdbd 4px solid;
+}
+
+header #welcome {
+  float: left;
+}
+
+header #welcome h1 {
+  margin: 0;
+  font-size: 31px;
+  font-family: 'Rigatoni Thin';
+  color: #ffbdbd;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+ul {
+margin: 0;
+padding: 0;
+float: right;
+}
+
+header #welcome {
+  float: left;
+}
+
+header nav {
+  margin-top: 13px;
+  float: right;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 23px;
+}
+
+header .current a {
+  color: #cccccc;
+}
+
+header a:hover {
+  color: #cccccc;
+}
+
+#eshop {
+  padding: 15px;
+  color: white;
+  background: #45954c;
+}
+
+
+#body {
+  margin-top: 20px;
+  margin: auto;
+  overflow: hidden;
+}
+
+footer {
+  padding: 15px;
+  margin-top: 15px;
+  color: white;
+  background-color: #45954c;
+  text-align: center;
+}
