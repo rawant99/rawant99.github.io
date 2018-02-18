@@ -33,7 +33,7 @@ header #welcome h1 {
   margin: 0;
   font-size: 31px;
   font-family: 'Rigatoni Thin';
-  color: ##ffbdbd;
+  color: #ffbdbd;
 }
 
 header a {
@@ -71,7 +71,6 @@ header li {
 
 header .current a {
   color: #cccccc;
-  font-weight: bold;
 }
 
 header a:hover {
