@@ -94,23 +94,41 @@ header a:hover {
   color: #cccccc;
 }
 
-#body {
-  margin-top: 20px;
+#body .container {
+  width: 80%;
   margin: auto;
   overflow: hidden;
 }
 
+#body {
+  padding-top: 27px;
+  min-height: 70px;
+}
+
+.images {
+  margin: 0;
+  padding: 0;
+}
+
+#body img {
+  float: left;
+  display: inline;
+  padding: 0 23px;
+}
+
 #body img.image1 {
   float: left;
+  left: 0;
   margin: 9px;
   width: 200px;
-  height: 260px;
+  height: 270px;
 }
 
 #body img.image2 {
   float: right;
+  right: 0;
   width: 200px;
-  height: 260px;
+  height: 270px;
   margin: 9px;
 }
 
