@@ -87,6 +87,7 @@ header a:hover {
 footer {
   padding: 15px;
   margin-top: 15px;
+  bottom: 0px;
   color: white;
   background-color: #45954c;
   text-align: center;
