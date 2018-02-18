@@ -22,7 +22,7 @@ header {
   background: #45954c;
   padding-top: 27px;
   min-height: 70px;
-  border-bottom: ##ffbdbd 4px solid;
+  border-bottom: #ffbdbd 4px solid;
 }
 
 header #welcome {
@@ -78,40 +78,11 @@ header a:hover {
   color: #cccccc;
 }
 
-#appointment {
-  padding: 15px;
-  color: white;
-  background: #819ac5;
-}
-
-#appointment a {
-  text-decoration: none;
-  color: white;
-}
-
-#appointment h1 {
-    float: left;
-}
-
-#appointment a:hover {
-  color: #cccccc;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
   padding: 15px;
   margin-top: 15px;
   color: white;
-  background-color: #819ac5;
+  background-color: #45954c;
   text-align: center;
 }
