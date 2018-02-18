@@ -77,16 +77,6 @@ header a:hover {
   color: #cccccc;
 }
 
-#contact {
-  padding-top: 20px;
-  margin: auto;
-  font-size: 35px;
-  color: #2F4F4F;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-align: center;
-}
-
 iframe {
   size: 10px;
   padding-bottom: 70px;
@@ -94,7 +84,7 @@ iframe {
 
 .time {
   font: 18px Georgia;
-  color: #696969;
+  color: black;
 }
 
 .time, iframe {
