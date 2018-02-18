@@ -75,6 +75,10 @@ header a:hover {
   margin-bottom: 3px;
 }
 
+#branding p {
+  
+}
+
 #eshop {
   padding: 15px;
   color: white;
@@ -103,11 +107,6 @@ header a:hover {
 #body {
   padding-top: 27px;
   min-height: 70px;
-}
-
-.images {
-  margin: 0;
-  padding: 0;
 }
 
 #body img {
